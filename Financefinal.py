@@ -30,7 +30,7 @@ Adj = full["Adj Close"]
 
 #------------------------------------------------------------------------------
 
-#Plot of the apple stock price over the last 9 years
+#Plot of the apple stock price over the last 10 years
 Date = mdates.date2num(Date)
 plt.figure(figsize=(10,5))
 plt.plot_date(Date,Adj,markersize=0.2,linestyle='solid', color='b')
